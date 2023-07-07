@@ -1,10 +1,28 @@
-nav>ul>li {
+nav>ul {
 
-    display: inline;
-    margin: 15px;
-    
+    display: flex;
+
+
 }
-nav>ul>li>a{
+
+nav li {
+
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover {
+    background-color:lightblue ;
+}
+
+nav li a {
 
     text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
